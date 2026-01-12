@@ -6,8 +6,8 @@ vim.g.mapleader = " "
 vim.cmd("set number")
 vim.cmd("set relativenumber")
 vim.cmd("set cursorline")
-vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "white" })
-vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#6699FF" })
+vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#cccccc" })
+vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#cc99ff" })
 vim.api.nvim_set_option("clipboard", "unnamed")
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
