@@ -110,7 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # My alias
-alias l='lsd -la --icon=always'
+alias l='lsd -la --icon=always --tree --depth=4'
+alias ll='lsd -la --icon=always'
+alias ls='lsd --icon=always'
 
 alias v=nvim
 alias vim=nvim
@@ -123,8 +125,6 @@ alias cls='clear'
 alias ff='fastfetch'
 
 alias tmuxkill='tmux kill-session'
-
-source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
